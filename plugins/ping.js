@@ -8,7 +8,7 @@ command(
     {
         pattern: "ping",
         fromMe: false,
-        desc: "To check ping",
+        desc: "Speed check ping",
         type: "user",
     },
     async (message, match) => {
