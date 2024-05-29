@@ -30,7 +30,7 @@
         "ytdl-core": "^4.11.4"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "start":  "pm2 start . --attach --name ammu"
     },
     "repository": {
         "type": "git",
